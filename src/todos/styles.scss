@@ -1,0 +1,20 @@
+.container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:  20px;
+}
+
+.item {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 4px solid black;
+    padding: 20px;
+    div:first-child {
+        display: flex;
+        gap: 10px;
+    }
+}
